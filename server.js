@@ -19,9 +19,12 @@ app.get('*', function(req, res) {
 });
 
 io.on('connection', function (socket) {
+  console.log('socket connected!')
   socket.on('disconnect', function() { });
 
   socket.on('add-message', function(message) {
+    console.log('message received!')
+    console.log(message)
     io.emit('message', { text: message });
   });
 });
