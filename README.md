@@ -1,6 +1,6 @@
 # NgSocketServer
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
+A guide to creating an Angular + Socket.io server app hosted on Heroku
+[Heroku app](https://sleepy-dawn-81766.herokuapp.com/)
 
 - `ng new ng-socket-server && cd ng-socket-server`
 - `yarn install`
