@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - `ng new ng-socket-server && cd ng-socket-server`
 - `yarn install`
-- add script in package.json `"heroku-postbuild": "ng build --prod"`
+- add script in package.json `"heroku-postbuild": "ng build --target=production --environment=prod --aot=true"`
 - add engines in package.json
 ```
 },
