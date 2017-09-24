@@ -14,4 +14,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 },
 ```
 - download server.js `curl -o ./server.js https://raw.githubusercontent.com/milesstanfield/ng4-sockets/master/server.js`
-- add dependencies `yarn add express method-override compression --save-dev`
+- add dependencies `yarn add express method-override compression --dev`
+- create procfile for heroku `touch Procfile && echo "web: node server.js" > Procfile`
