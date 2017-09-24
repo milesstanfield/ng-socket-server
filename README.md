@@ -17,3 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - add server.js dependencies `yarn add express method-override compression`
 - create procfile for heroku `touch Procfile && echo "web: node server.js" > Procfile`
 - Add the cli and cli/compiler dependencies so they can be used in the npm build scripts. `yarn remove @angular/cli @angular/compiler-cli; yarn add @angular/cli@latest @angular/compiler-cli@latest`
+- create heroku app `heroku create`
+- push to heroku `git push heroku master`
+- scale up to 1 free web dyno `heroku ps:scale web=1; heroku restart`
+- visit your app `heroku open`
